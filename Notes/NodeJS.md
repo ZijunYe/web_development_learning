@@ -43,4 +43,12 @@ Server-Side(Backend) --> 1. server contains application(index.js) and 2. it also
 - what is Localhost: your computer
 - What is port: lots door on your server, each of door have an address
 - Check the port listening to ```sudo lsof -i -P -n | grep LISTEN
-- 
+
+Middleware 
+- Pre-process the request 
+- logging the request 
+- authentication 
+- process and handle error earlier 
+- NPM module 
+  - ```Body parser``` able to get request body 
+  - ```morgan``` log the request come to your server 
