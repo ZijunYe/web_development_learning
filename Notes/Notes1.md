@@ -52,3 +52,24 @@ Middleware
 - NPM module 
   - ```Body parser``` able to get request body 
   - ```morgan``` log the request come to your server 
+
+
+  ## API 
+  - Structure of API
+    - Base URL / endpoint ? optional parameter 
+  - What is API: Enable to different application interact each other 
+	 A: Application 
+	 P: Programming 
+	 I: Interface 
+	
+	- Type of API
+    - REST:API	
+    - GraphQL	
+    - gRPC	
+    - SOAP
+
+  - JSON( JavaScript Object Notation )
+    - They way of formating data that send through internet in readable 
+    - JSON Visuializer (JSON stack view)
+  - JS Object --> JSON ```const jsonData = JSON.stringify(data)```
+  - JSON --> JS object ```const data = JSON.parse(jsonData)```
