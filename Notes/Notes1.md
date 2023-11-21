@@ -73,3 +73,38 @@ Middleware
     - JSON Visuializer (JSON stack view)
   - JS Object --> JSON ```const jsonData = JSON.stringify(data)```
   - JSON --> JS object ```const data = JSON.parse(jsonData)```
+
+
+
+
+  - Access external API 
+    - using ```axios``` package 
+
+  - API authentication 
+    0: No authentication 
+      - Rate limit 
+    1: Basic Authentication 
+      - Username and Password (Base64 encoding to the url)
+      - ```username:password``` --> authorization header 
+    2: API key authorisation 
+      - The different authorization & authentication 
+        - Authorization - that enable u use api 
+        - Authentication - allow u to identify yourself 
+    3: Token Based Authentication 
+      - based on the username + password to generate a token that able to interact with api 
+
+
+  - {REST:API}
+    - GET: axios.get(url,config)
+    - POST: axios.post("URL", body, config)
+    - PUT: axios.put("URL", body, config)
+    - PATCH: axios.patch("URL", body, config)
+    - DELETE: axios.post("URL", body, config)
+
+
+
+
+
+
+
+
